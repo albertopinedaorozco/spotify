@@ -223,13 +223,13 @@ Header section
 .header-section {
 	padding-left: 55px;
 	padding-right: 72px;
-	background: #08192d;
+	background: black;
 }
 
 .site-logo {
 	display: inline-block;
 	padding: 0;
-	padding: 44px 15px;
+	padding: 0px 15px;
 }
 
 .header-right {
@@ -249,13 +249,14 @@ Header section
 
 .header-right .user-panel a {
 	font-size: 16px;
-	color: #ffffff;
+	color: #44c874;
 	margin: 0 10px;
 }
 
 .header-right .user-panel .register {
-	color: #fc0254;
+	color: #2cbd5c;
 	margin-right: 0;
+	font-weight: bold;
 }
 
 .header-right span {
@@ -277,13 +278,13 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #2abe59;
 	padding: 44px 10px;
 	margin-left: 60px;
 }
 
 .main-menu li a:hover {
-	color: #fc0254;
+	color: #fff;
 }
 
 .main-menu li:first-child a {
