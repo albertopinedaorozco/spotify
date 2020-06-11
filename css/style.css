@@ -351,7 +351,7 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
+	background: rgb(29, 185, 84);/*#0a183d;*/
 }
 
 .hs-item h2 {
