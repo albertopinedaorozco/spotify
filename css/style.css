@@ -137,7 +137,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #fc0254;
+	background: #2abe59;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -327,7 +327,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #fc0254;
+	color: #2abe59;
 }
 
 .slicknav_menu {
@@ -365,7 +365,7 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color: #2f315d;
 }
 
 .hs-item p {
@@ -715,7 +715,7 @@ Playlist page
 	border-radius: 80px;
 	color: #fff;
 	font-size: 15px;
-	background: #fc0254;
+	background: #2abe59;
 }
 
 /* ----------------
