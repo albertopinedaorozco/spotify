@@ -137,7 +137,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #fc0254;
+	background: #2abe59;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -223,13 +223,13 @@ Header section
 .header-section {
 	padding-left: 55px;
 	padding-right: 72px;
-	background: #08192d;
+	background: black;
 }
 
 .site-logo {
 	display: inline-block;
 	padding: 0;
-	padding: 44px 15px;
+	padding: 0px 15px;
 }
 
 .header-right {
@@ -249,13 +249,14 @@ Header section
 
 .header-right .user-panel a {
 	font-size: 16px;
-	color: #ffffff;
+	color: #44c874;
 	margin: 0 10px;
 }
 
 .header-right .user-panel .register {
-	color: #fc0254;
+	color: #2cbd5c;
 	margin-right: 0;
+	font-weight: bold;
 }
 
 .header-right span {
@@ -277,13 +278,13 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #2abe59;
 	padding: 44px 10px;
 	margin-left: 60px;
 }
 
 .main-menu li a:hover {
-	color: #fc0254;
+	color: #fff;
 }
 
 .main-menu li:first-child a {
@@ -326,7 +327,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #fc0254;
+	color: #2abe59;
 }
 
 .slicknav_menu {
@@ -350,7 +351,7 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
+	background: rgb(29, 185, 84);/*#0a183d;*/
 }
 
 .hs-item h2 {
@@ -364,7 +365,7 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color: #2f315d;
 }
 
 .hs-item p {
@@ -714,7 +715,7 @@ Playlist page
 	border-radius: 80px;
 	color: #fff;
 	font-size: 15px;
-	background: #fc0254;
+	background: #2abe59;
 }
 
 /* ----------------
