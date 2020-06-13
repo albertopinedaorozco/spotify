@@ -1,8 +1,19 @@
-Thank you for using our template!
+# proyecto spotify
 
-For more awesome templates please visit https://colorlib.com/wp/templates/
+## información general
+- landing page spotify que se ejecuta en servidor web nginx usando tecnologia de contenedores en docker, se realizó gestión de proyecto usando la herramienta de software Redmine, ejecutandose en otro contenedor
 
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
+## instrucciones de ejecución
 
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+- clonar el proyecto, ubicarse desde la terminal en la carpeta del proyecto (spotify)
+- Con el docker daemon ejecutandose escribir el comando: 
+
+```
+docker-compose up --d
+```
+- Ir al navegador web y probar la aplicación en:
+```
+ http://localhost:8080
+ 
+ ```
+

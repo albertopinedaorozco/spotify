@@ -1,0 +1,9 @@
+version:  "3.3"
+services:
+  spotify:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: landing_spotify
+    ports:
+      - "8080:80"
