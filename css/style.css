@@ -128,7 +128,7 @@ Commom elements
 
 /* buttons */
 
-.site-btn {
+.site-btn { /*Botones que estaban en rojo*/
 	display: inline-block;
 	border: none;
 	font-size: 14px;
@@ -137,7 +137,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #fc0254;
+	background: #2abe59;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -149,7 +149,7 @@ Commom elements
 }
 
 .site-btn.sb-c2 {
-	background: #383b70;
+	background: #34ad15;/*Boton start free trial*/
 }
 
 /* Preloder */
@@ -223,13 +223,13 @@ Header section
 .header-section {
 	padding-left: 55px;
 	padding-right: 72px;
-	background: #08192d;
+	background: black;
 }
 
 .site-logo {
 	display: inline-block;
 	padding: 0;
-	padding: 44px 15px;
+	padding: 0px 15px;
 }
 
 .header-right {
@@ -249,13 +249,14 @@ Header section
 
 .header-right .user-panel a {
 	font-size: 16px;
-	color: #ffffff;
+	color: #44c874;
 	margin: 0 10px;
 }
 
 .header-right .user-panel .register {
-	color: #fc0254;
+	color: #2cbd5c;
 	margin-right: 0;
+	font-weight: bold;
 }
 
 .header-right span {
@@ -277,13 +278,13 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #2abe59;
 	padding: 44px 10px;
 	margin-left: 60px;
 }
 
 .main-menu li a:hover {
-	color: #fc0254;
+	color: #fff;
 }
 
 .main-menu li:first-child a {
@@ -326,7 +327,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #fc0254;
+	color: #2abe59;
 }
 
 .slicknav_menu {
@@ -350,7 +351,7 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
+	background: rgb(29, 185, 84);/*#0a183d;*/
 }
 
 .hs-item h2 {
@@ -364,7 +365,7 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color: #2f315d;
 }
 
 .hs-item p {
@@ -447,12 +448,12 @@ Hero section
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #383b70;
+	background: #3d7038;
 	margin-right: 10px;
 }
 
 .hero-slider .owl-dots .owl-dot.active {
-	background: #fc0254;
+	background: #5efc02;
 }
 
 /* ----------------
@@ -465,7 +466,7 @@ Intro section
 }
 
 /* ----------------
-How section
+How section 5efc02
  -------------------*/
 
 .how-section {
@@ -477,7 +478,7 @@ How section
 	width: 57px;
 	height: 57px;
 	border-radius: 50%;
-	background: #fc0254;
+	background: #5efc02;
 	margin-bottom: 25px;
 }
 
@@ -533,8 +534,8 @@ Subscription section
 	font-weight: 500;
 }
 
-.sub-text h3 {
-	color: #fc0254;
+.sub-text h3 { /*Start free trial*/
+	color: greenyellow;
 	margin-bottom: 30px;
 	font-weight: 500;
 }
@@ -672,7 +673,7 @@ Playlist page
 }
 
 .playlist-filter li.mixitup-control-active {
-	border-bottom: 2px solid #fc0254;
+	border-bottom: 2px solid #5efc02;
 }
 
 .playlist-item {
@@ -714,7 +715,11 @@ Playlist page
 	border-radius: 80px;
 	color: #fff;
 	font-size: 15px;
-	background: #fc0254;
+<<<<<<< HEAD
+	background: #2abe59;
+=======
+	background: #5efc02;
+>>>>>>> feature_tarea_1
 }
 
 /* ----------------
@@ -732,7 +737,7 @@ Blog page
 .blog-item .blog-date {
 	font-size: 12px;
 	font-weight: 600;
-	color: #fc0254;
+	color: #5efc02;
 	margin-bottom: 24px;
 }
 
@@ -861,7 +866,7 @@ Category page
 }
 
 .category-links a.active {
-	border-bottom: 2px solid #fc0254;
+	border-bottom: 2px solid #5efc02;
 }
 
 .category-item {
@@ -906,7 +911,7 @@ Category page
 	height: 71px;
 	right: 29px;
 	bottom: 21px;
-	color: #fc0254;
+	color: #5efc02;
 	font-size: 16px;
 	text-align: center;
 	border-radius: 50%;
@@ -1000,7 +1005,7 @@ Category page
 }
 
 .jp-play {
-	background: #fc0254;
+	background: #5efc02;
 }
 
 .jp-play:after {
@@ -1137,7 +1142,7 @@ Artest Page
 	top: calc(50% - 35px);
 	border: none;
 	border-radius: 50%;
-	color: #fc0254;
+	color: #5efc02;
 	background: #fff;
 }
 
@@ -1473,7 +1478,7 @@ Responsive
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		color: #fc0254;
+		color: #5efc02;
 		background: transparent;
 	}
 	.slicknav_btn {
@@ -1609,7 +1614,7 @@ Responsive
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		color: #fc0254;
+		color: #5efc02;
 		background: transparent;
 	}
 	.slicknav_btn {
